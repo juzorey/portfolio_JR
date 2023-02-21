@@ -1,11 +1,150 @@
 .App {
   text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: aliceblue;
+  font-size: 3rem;
+  display: block;
+  background-color:black;
+
+}
+.head{
+  margin-bottom: 150px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 3px;
+  font-size: 6.8rem;
 }
+.i-github{
+  height:20px;
+  width:20px;
+}
+
+.project-arrow{
+  line-height: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:30px;
+
+}
+
+.project-header{
+  margin-bottom: 30px;
+  font-family: 'Signika Negative', sans-serif;
+
+}
+
+.project-cabinet{
+  background-color: aqua ;
+  }
+  
+.projects{
+  display: flex;
+  border-top:2px solid grey ;
+  border-bottom:2px solid grey ;
+  background-color: blue;
+}
+.project-container2{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  background-color: blanchedalmond;
+  width: 100%;
+}
+
+
+.description{
+  font-size: 1rem;
+}
+
+.first{
+  background-color: red;
+}
+
+  
+.two-button{
+  background-color: red;
+  display: flex;
+  justify-content: end;
+}
+
+
+
+.head{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-left: 40px;
+  background-color: #61dafb;
+  
+}
+
+.right-head{
+  margin-right: 10px;
+}
+
+.link-container{
+ 
+}
+
+img{
+  height:30px;
+  width:30px;
+}
+.contact-links{
+  display: flex;
+  flex-direction: row;
+  grid-gap:25px;
+
+}
+
+button{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  font-family: 'Signika Negative', sans-serif;
+  letter-spacing: 1.5px;
+  color: aliceblue;
+  border-radius: 4%;
+  border: 0;
+  padding: 10px 15px 10px 15px;
+}
+
+.btn{
+  background-color: rgb(104, 3, 104);
+}
+.btn2{
+  background-color: rgba(236, 236, 236, 0);
+  border: 2px solid aliceblue;
+  border-radius: 50px;
+
+}
+
+.btn2:hover{
+  color: black;
+  background-color: aliceblue;
+
+}
+
+
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover{
+  color: rgb(241, 178, 100);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button:hover{
+  color: rgb(241, 178, 100);
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,8 +152,10 @@
   }
 }
 
+
+
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,7 +163,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: 150px;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +179,5 @@
     transform: rotate(360deg);
   }
 }
+
+
