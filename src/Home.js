@@ -9,7 +9,7 @@ import Cabinet from './comp/project_cabinet.jsx'
 import SkillsBar from './comp/Skills-bar';
 import NavBar from './comp/NavBar';
 
-function App() {
+function Home() {
   return (
   
     <div className="App">
@@ -52,4 +52,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
