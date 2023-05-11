@@ -20,7 +20,12 @@ export default function SkillsBar(){
     <div className="skills-bar-container">
      
     <div className='logo-box-container'> 
+
       <div className='logo-box-2'>
+      <div className="circle"></div>
+      <div className="circle2"></div>
+      <div className="circle3"></div>
+      <div className="circle4"></div>
 
         <div className="skills-title">Front-End Skills</div>
 

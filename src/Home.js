@@ -1,6 +1,4 @@
 
-import './App.css';
-import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FaGithub, FaLinkedin, FaFilePdf} from 'react-icons/fa'
@@ -12,14 +10,15 @@ import NavBar from './comp/NavBar';
 function Home() {
   return (
   
-    <div className="App">
+    <div className='App' >
     <NavBar/>
     
       <header class="head">
         <h1>Hello! I'm Jose Reyes</h1>
 
         <div className="right-head">
-          <h5>Im a Software Engineer inspired to use the modern tools to surpass the current human limitation </h5>
+          <div className='right-head-text'>  <span className='right-head-text a'>Im a Software Engineer inspired to use the modern tools to surpass the current human limitation </span></div>
+        
           <div class="link-container">
             <div class="contact-links">
               <button class="btn"><FaFilePdf class="i-resume" /><a target="_blank" href="google.com btn">Resume</a></button>
