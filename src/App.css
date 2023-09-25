@@ -59,7 +59,7 @@ h1{
 
 }
 .lang-btn{
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 50px;
   padding: 5px 10px;
   font-size: 20px;
@@ -82,20 +82,54 @@ h1{
 .projects{
   display: flex;
   border-bottom:2px solid grey ;
+  flex-direction: column;
+  width: auto;
+  background-color: #1ee94d00;
+  display: flex;
+  flex-direction: column;
+  overflow-y:hidden ;
+  overflow-x:hidden ;
 
+  height: 200px;
+  color: #ffffff;
 
 }
+.projects:hover{
+  color:#0be079
+}
+
+.hidden-container-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.project-summary-info{
+  width: 60%;
+  font-size: 40px;
+}
+.motion-pic{
+height: auto;
+width:600px;
+margin-right: 18px;
+}
+
+
+
 .project-container2{
+
   display: flex;
   justify-content: space-between;
   margin: 10px auto;
-
   width: 100%;
   height:180px;
+  background-color: transparent;
 
 
 }
 .project-container{
+}
+.black-motion{
+ 
 }
 .languages-used{
 width: 600px;
