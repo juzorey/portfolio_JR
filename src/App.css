@@ -250,6 +250,10 @@ img{
   flex-direction: row;
   grid-gap:25px;
 
+
+}
+.contact-links:hover{
+  color: #0be079;
 }
 
 button{
@@ -269,6 +273,7 @@ button{
   padding: 10px 15px 10px 15px;
 
 }
+
 .btn2{
   background-color: rgba(255, 255, 255, 0);
   width: 200px;
