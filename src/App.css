@@ -6,15 +6,27 @@
   color: aliceblue;
   font-size: 3rem;
   display: flex;
-  background-color: rgb(21, 20, 20);
+  background-color: rgb(0, 0, 0);
   flex-direction: column;
 align-items: center;
 
 
 }
+.hero-img{
+  width: 100%;
+  height: 100%;
 
+
+
+
+
+
+
+
+}
 .left-head{
-  width: 1000px;
+  width: 800px;
+
 
 }
 
@@ -99,15 +111,18 @@ h1{
 
 .project-cabinet{
   /* background-color: aqua ; */
-  width: 90%;
+  width: 100%;
+  
+  
   }
   
 .projects{
   display: flex;
-  border-bottom:2px solid grey ;
+  /* border-bottom:2px solid grey ; */
   flex-direction: column;
   width: auto;
 
+  border-radius:20px;
 
   display: flex;
   flex-direction: column;
@@ -121,7 +136,7 @@ h1{
 
 
   backdrop-filter: blur(25px);
-
+  margin-top: 20px;
 
 }
 .projects:hover{
@@ -140,7 +155,7 @@ h1{
 }
 .motion-pic{
 height: auto;
-width:600px;
+width:500px;
 margin-right: 18px;
 /* margin-top:0px; */
 margin-bottom: 10px;
@@ -173,7 +188,6 @@ border-radius:5px;
   margin: 10px auto;
   width: 100%;
   height:180px;
-
 
 
 }
@@ -296,8 +310,43 @@ height: 100px;
   justify-content: center;
   text-align: left;
 
-  width: 90%;
-  margin-top:100px;
+  width: 120%;
+  height:800px;
+  margin-top:150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+background-image: url('./img/vecteezy_a-moving-digital-3d-wave-futuristic-dark-background-with_16708494.jpg');
+}
+.inner-head{
+width: 130vh;
+
+height: 40vh;
+
+display: flex;
+flex-direction: column;
+padding-left: 15px;
+border-width: 3px;
+  border-style: solid;
+  border-right: none;
+
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+.inner-h{
+  font-size: 13vh;
+}
+.inner-text{
+  font-size: 5vh;
+  padding-top: 10px;
+  width: 90vh;
+
 }
 
 .right-head{
@@ -446,10 +495,11 @@ button:hover{
   
 }
 .skills-title{
-  font-size: 30px;
+  font-size: 50px;
 }
 .logo-text{
   font-size: 20px;
+  color: black;
 }
 .logos{
   width: 80px;
@@ -457,15 +507,17 @@ button:hover{
 }
 
 .logo-ring{
-  width: 200px;
-  height: 200px;
+  width: 130px;
+  height: 130px;
   border-radius: 15px;
   /* border: solid 1px white; */
   display:flex;
   justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
-  background:rgba(255, 255, 255, 0.1);
+  background:rgb(238, 235, 235);
+  /* background:rgba(255, 255, 255, 0.1); */
+
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(25px);
@@ -494,7 +546,7 @@ button:hover{
   left:0;
   width: 100%;
   height: 1500px;
-  background:linear-gradient(#f00,#f0f);
+  background:linear-gradient(rgb(241, 0, 0),rgb(203, 195, 195));
   clip-path: circle(10% at 30% 70%);
 }
 
@@ -505,19 +557,20 @@ button:hover{
   left:0;
   width: 100%;
   height: 1500px;
-  background:linear-gradient(#2196f3,#e91e63);
+  background:linear-gradient(#eb0000,#000000);
   clip-path: circle(10% at 15% 50%);
+
 }
-.circle2-2{
+/* .circle2-2{
   content:"";
   position:absolute;
   top:0;
   left:0;
   width: 100%;
   height: 1500px;
-  background:linear-gradient(#2196f3,#e91e63);
+  background:linear-gradient(#000000,#000000);
   clip-path: circle(10% at 15% 50%);
-}
+} */
 
 .circle3{
   content:"";
@@ -526,8 +579,9 @@ button:hover{
   left:0;
   width: 100%;
   height: 1500px;
-  background:linear-gradient(#2196f3,#1ee94d);
+  background:linear-gradient(#ff6600,#5df27f);
   clip-path: circle(7% at 70% 70%);
+  z-index: -1;
 }
 .circle4{
   content:"";
@@ -536,8 +590,9 @@ button:hover{
   left:0;
   width: 100%;
   height: 1500px;
-  background:linear-gradient(#21f356,#ffc548);
-  clip-path: circle(8% at 50% 60%);
+  background:linear-gradient(#ee5b21,#ffc548);
+  clip-path: circle(8% at 48% 58%);
+  z-index: 0;
 }
 
 
@@ -552,13 +607,13 @@ button:hover{
   justify-content: center;
   align-items: center;
   position: fixed;
-  background-color: rgb(21, 20, 20);
+  background-color: rgb(0, 0, 0);
   z-index: 1;
 }
 .navbar-inner{
   width: 90%;
   height: 115px;
-  border-bottom: solid .5px rgb(255, 255, 255);
+  /* border-bottom: solid .5px rgb(255, 255, 255); */
   display: flex;
   justify-content: space-between;
   align-items: center;

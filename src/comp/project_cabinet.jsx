@@ -4,6 +4,10 @@ import { motion, animate } from "framer-motion"
 import { useState } from 'react';
 import {FiArrowUpRight} from 'react-icons/fi'
 import fakeGif from '../logos/gif.gif'
+import foodIt from '../logos/Screenshot 2024-05-02 at 1.50.40 PM.png'
+import triviata from '../logos/Triviata screen.png'
+import fakeUber from '../logos/Fake-Uber Screen.png'
+
 import js from '../logos/javascript.8e1dd761.png'
 import react from '../logos/react.29ea9910.png'
 import django from '../logos/django.c0db5538 (1).png'
@@ -86,13 +90,15 @@ export default function Cabinet(){
               </div>
 
               <div className="two-button">
+                <a href='https://github.com/juzorey/Food-It' target="_blank" > 
                 <div className="source-code btn2">
                   <div className='source-link-name'>Source Code </div> 
                   <FiArrowUpRight className="fi-arrow down"/>
                 </div>
+                </a>
                 <div className="live-code btn2">
-                  <div className='source-link-name'>Live Site</div>
-                  <FiArrowUpRight className="fi-arrow rotate"/>
+                  {/* <div className='source-link-name'>Live Site</div>
+                  <FiArrowUpRight className="fi-arrow rotate"/> */}
                   </div>
               </div>
 
@@ -131,7 +137,7 @@ export default function Cabinet(){
 
 
             <div className='fumb'>
-              <img  className='motion-pic' src={fakeGif}/>
+              <img  className='motion-pic' src={foodIt}/>
             </div>
 
           </div>
@@ -181,13 +187,15 @@ export default function Cabinet(){
               </div>
 
               <div className="two-button">
+                <a href='https://github.com/juzorey/Fake-uber' target="_blank" >
                 <div className="source-code btn2">
                   <div className='source-link-name'>Source Code </div> 
                   <FiArrowUpRight className="fi-arrow down"/>
                 </div>
+                </a>
                 <div className="live-code btn2">
-                  <div className='source-link-name'>Live Site</div>
-                  <FiArrowUpRight className="fi-arrow rotate"/>
+                  {/* <div className='source-link-name'>Live Site</div>
+                  <FiArrowUpRight className="fi-arrow rotate"/> */}
                   </div>
               </div>
 
@@ -224,7 +232,7 @@ Solano to write the blockchain contracts
 
 
             <div className='fumb'>
-              <img  className='motion-pic' src={fakeGif}/>
+              <img  className='motion-pic' src={fakeUber}/>
             </div>
 
           </div>
@@ -275,13 +283,15 @@ Solano to write the blockchain contracts
               </div>
 
               <div className="two-button">
+                <a href='https://github.com/lastnameisgold/triviata_app_frontend' target="_blank">  
                 <div className="source-code btn2">
                   <div className='source-link-name'>Source Code </div> 
                   <FiArrowUpRight className="fi-arrow down"/>
                 </div>
+                </a>
                 <div className="live-code btn2">
-                  <div className='source-link-name'>Live Site</div>
-                  <FiArrowUpRight className="fi-arrow rotate"/>
+                  {/* <div className='source-link-name'>Live Site</div>
+                  <FiArrowUpRight className="fi-arrow rotate"/> */}
                   </div>
               </div>
 
@@ -321,7 +331,7 @@ study for any topic. In the future will implement a second side of the app to ha
 
 
             <div className='fumb'>
-              <img  className='motion-pic' src={fakeGif}/>
+              <img  className='motion-pic' src={triviata}/>
             </div>
 
           </div>
